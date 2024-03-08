@@ -1,5 +1,3 @@
-
-
 from keyboards import get_kb
 from states import User_States
 
@@ -87,20 +85,3 @@ async def load_desc(message:types.Message, state:FSMContext) -> None:
 
     else:
         await message.reply(text='Ты превысил количество допустимых символов!')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
